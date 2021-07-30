@@ -94,7 +94,7 @@ section article{
     padding: 6px;
     border: 1px solid rgb(200,200,200);
     background-color: rgb(220,220,220);
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 5px 5px 5px rgb(200,200,200);;
 }
 
 section article .imagensection{
