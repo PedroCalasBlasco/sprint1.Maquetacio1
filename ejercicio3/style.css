@@ -9,6 +9,8 @@
     padding: 15px;
 }
 
+
+
 .secciones1{
     padding: 15px;
 }
@@ -76,7 +78,7 @@
 }
 
 #seccion2_2 .sub{
-    margin: 2px;
+    /* margin: 2px; */
 }
 
 .mt{
@@ -104,21 +106,77 @@
 
 @media (max-width: 575px) {
 
+    #contenedor1{
+        justify-content: center;
+    }
+
+    .sub{
+        height: 5vh;
+        width: 90%;
+        
+    }
+
+
     #seccion1_1{
+        padding: 15px;
+        width: 92%;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    #seccion1_1{
+        padding: 15px;
+        width: 92%;
     }
 
     #seccion1_1 .sub{
-        width: 100%;
+        width: 90%;
         margin-bottom: 5px;
+        margin-top: 9px;
+        margin-left: 15px;
+    }
+
+    #seccion1_2 .sub{
+        margin-left: 15px;
+    }
+   
+
+    #seccion2_1{
+        padding: 15px;
+        width: 92%;
     }
 
     #seccion2_1 .sub{
-        width: 100%;
+        margin: 0px;
+    
+    }
+
+    #seccion2_1 .sub{
+        width: 90%;
         margin-bottom: 5px;
+        margin-top: 9px;
     }
 
     #seccion2_1 #sub100 {
-        width: 100%;
+        width: 92%;
+    }
+
+    #seccion2_2{
+        width: 92%;
+        padding: 15px;
+    
+    }
+
+    #seccion2_2 .sub{
+        margin-left: 15px;
+    }
+
+    .mt{
+        margin-top: 8px;
+    }
+
+    #seccion3{
+        margin-left: 23px;
+        width: 85%;
     }
 }

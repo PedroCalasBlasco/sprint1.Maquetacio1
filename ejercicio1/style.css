@@ -17,7 +17,7 @@
     background-color: blueviolet;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #seccion1_2{
@@ -26,7 +26,7 @@
 }
 
 #seccion1_1 .sub{
-    width: 15%;
+    width: 22%;
 }
 
 #seccion1_1 .subancho1_1{
@@ -38,7 +38,6 @@
     background-color: blue;
 }
 
-/*gggggggggggggggggggggggggggggggg*/
 
 
 .secciones2{
@@ -56,25 +55,32 @@
     padding: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #seccion2_1 .sub{
-    margin: 2px;
-    width: 45%;
+    margin: 8px;
+    width: 48%;
 }
 
 #seccion2_1 #sub100{
-    width: 95%;
+    width: 99%;
+    background-color: cornflowerblue;
 }
 
 #seccion2_2{
     background-color: crimson;
     width: 30%;
     padding: 5px;
+    
 }
 
 #seccion2_2 .sub{
-    margin: 3px;
+    margin: 6px;
+    
+}
+
+#seccion2_2 .sub1{
+    margin-top: 9px;
 }
